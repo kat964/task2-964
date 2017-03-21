@@ -1,0 +1,13 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: task2-964
+  host: task2-964
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-po
+  - Conversation-bd
+  - Tone Analyzer-k2
+  - availability-monitoring-auto
